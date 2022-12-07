@@ -1,0 +1,321 @@
+@font-face {
+    font-family: Muller;
+    font-display: swap;
+    src: local(Muller),
+         url("../NicTesla/Muller_reg.woff") format("woff"),
+         url("../NicTesla/Muller_reg.woff2") format("woff2"),
+         url("../NicTesla/Muller_bold.woff") format("woff"),
+         url("../NicTesla/Muller_bold.woff2") format("woff2");
+    font-weight: 400;
+    font-style:normal;
+}
+
+html {
+    font-family: Muller;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first-screen {
+    height: 800px;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1350px;
+} 
+
+header {
+    width: 1350px;
+    position: absolute;
+}
+
+.logo {
+    color: #46B1DE;
+    white-space: pre-line;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size:medium;
+    font-family: 'Russo One';
+}
+
+.doctor {
+    margin-left: 8px;
+    margin-top: 8px;
+    font-size:larger;
+    font-family: 'Russo One';
+}
+
+.phone {
+    margin-right: 100px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+}
+
+.text {
+    position: absolute;
+    margin: 140px 0px 0px 200px;
+}
+
+p {
+    white-space: pre-line;
+}
+
+span {
+    text-transform: uppercase;
+    white-space: pre-line;
+    font-size: xx-large;
+}
+
+p > span > span {
+    color: #46B1DE;
+    font-family: 'Russo One';
+}
+
+p > span {
+    color: black;
+    font-family: 'Russo One';
+}
+
+button {
+    border: 1px solid #000;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: smaller;
+    width: 100px;
+    font-family: Muller;
+}
+
+.call {
+    background-color: #46B1DE;
+    color: white;
+    position: absolute;
+    margin: 320px 0px 0px 200px;
+}
+
+.servicies {
+    background-color: white;
+    color:#46B1DE;
+    position: absolute;
+    margin: 320px 0px 0px 420px ;
+}
+
+.advantages {
+    display: grid;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 600px 0px 0px 200px;
+    position: absolute;
+    gap: 40px;
+}
+
+.sheet {
+    display:flex;
+    flex-direction: row;
+    width: 280px;
+    height: 80px;
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    justify-content:space-around;
+}
+
+.numbers {
+    color: #46B1DE;
+    font-size: 50px;
+    font-weight:bold;
+    padding: 10px;
+}
+
+.card_text {
+    text-align:justify;
+    float: right;
+    font-size: small;
+    font-weight: lighter;
+    color: black;
+    text-transform: none;
+    padding: 10px;
+    white-space: pre-line;
+    font-family: Muller;
+}
+
+.lady {
+    position: absolute;
+    bottom: 80px;
+    right: 350px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    margin-top: 40px;
+}
+
+.cards {
+    margin-top: -100px;
+}
+
+.why_me {
+    font-family: 'Russo One';
+    margin-left: 320px;
+}
+
+b {
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+
+p > b > span {
+    color: #46B1DE;
+}
+
+p ~ p {
+    margin-left: 350px;
+    white-space: pre-wrap;;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(2, 110px);
+    align-content:center;
+    justify-content: center;
+    background-color: #82ceef;
+    margin: 20px 200px 0px 180px;
+    position: absolute;
+    width:960px;
+    height: 300px;
+    border-radius: 2%;
+    gap:20px;
+    flex-wrap: wrap;
+}
+
+.item {
+    color: #46B1DE;
+    font-size: 40px;
+    padding: 15px 0px 0px 20px;
+    font-weight: bold;
+}
+
+.feature {
+    color: #46B1DE;
+    padding-left: 90px;
+    margin-top: -58px;
+    font-size:large;
+    text-transform: none;
+    white-space: pre-line;
+    font-weight: bold;
+    
+}
+
+.question {
+    background-color: white;
+    border: 1px solid #46B1DE;
+    border-radius: 10%;
+    height: 130px;
+}
+
+.specification {
+    white-space: pre-line;
+    margin-left: 8px;
+    margin-bottom: 4px;
+}
+
+footer {
+    background: linear-gradient(to right, #add6e3,#2b92b5);
+    width: 1350px;
+    height: 400px;
+    margin-top: 340px;
+}
+
+.box_1 {
+    display: flex;
+    flex-direction: row;
+    white-space: pre-line;
+    margin-left: 180px;
+    padding-top: 15px;
+}
+
+.doctor_footer {
+    font-size:x-large;
+    color: #054f67;
+    margin-left: 10px;
+}
+
+ul {
+    margin-top: 40px;
+    margin-left: 140px;
+}
+li {
+    list-style-type: none;
+    margin-top: 20px;
+    color: #054f67;
+}
+
+.labours {
+    white-space: pre-line;
+    color: #054f67;
+    margin-left: 350px;
+    margin-top: -90px;
+    font-size: medium;
+}
+
+.working {
+    text-transform: none;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Muller;
+}
+
+.language {
+    color: #000;
+}
+
+.Contacts {
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    flex-direction:column;
+    margin-right: 250px;
+    margin-top: -200px;
+    color: white;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size:x-large;
+}
+
+.connection {
+    color: white;    
+    font-family: Muller;
+}
+
+.list {
+    margin-top: 5px;
+}
+
+.social_media {
+    display:inline-block;
+    align-items:center;
+    padding: 5px;
+}
+
+.Copyright {
+    margin-top: 25px;
+    font-size: small;
+}
